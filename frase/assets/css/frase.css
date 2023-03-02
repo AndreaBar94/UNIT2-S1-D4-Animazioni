@@ -98,8 +98,14 @@ body{
     }
 }
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
 #testoAlternato{
-    text-align: center;
+    width: 600px;
+    text-align: left;
     padding-block: 10rem;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
@@ -123,6 +129,7 @@ body{
     animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
+    left: 8px;
 }
 
 .word2{
@@ -130,7 +137,7 @@ body{
     animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    left: 3px;
+    left: 10px;
 }
 
 .word3{
@@ -138,6 +145,6 @@ body{
     animation-duration: 8s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    left: -1.5rem;
+    left: 10px;
 }
 
