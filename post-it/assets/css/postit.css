@@ -61,4 +61,25 @@ body{
     box-shadow: 0px 10px 15px 1px;
     z-index: 1;
 }
+/* 
+.postitYellow, .postitGreen, .postitPurple{
+    animation-name: onTheWall;
+    transition: 1s;
+    animation-delay: 2;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
 
+@keyframes onTheWall {
+    from {
+        transform:perspective(500px) translateZ(2000px);
+    }
+
+    50% {
+        transform: perspective(500px)translateZ(1000px);
+    }
+    
+    to {
+        transform: perspective(500px)translateZ(0px);
+    }
+} */
